@@ -1,0 +1,11 @@
+.navbar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.navbar ul li a{
+    
+    margin: 0.50rem ;
+    font-size: 0.75rem;
+}
