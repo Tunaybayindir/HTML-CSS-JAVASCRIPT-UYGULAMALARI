@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+html{
+    font-size: "Open Sans",sans serif;
+}
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 60px;
+
+}
+#navbar ul{
+    list-style-type:none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0 0.50rem;
+}
+#navbar ul li a:hover{
+    background: #336ea2;
+    border-radius: 4px;
+}
+/* Section HOME */
+.home{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.home img{
+    border-radius: 100%;
+    margin:10px 0;
+}
+.home .name h2{
+    margin-bottom: 0.75rem;
+}
+.home .name p{
+    opacity: 0.6;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+/* Eğitimler */
+#training{
+    color: #fff;
+}
+#training .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#training .items .item{
+    padding: 1rem;
+    text-align: center;
+    width: 33%;
+}
+/* Courses */
+#courses{
+    color: #333;
+    padding: 1rem;
+}
+.courses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.courses .course{
+    margin-top:0.5rem;
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+.courses .course .course-image{
+    border-radius: 4px;
+    position: relative;
+    margin-right: 2rem;
+}
+.courses .course .course-image span{
+    position: absolute;
+    top: 30;
+    left: 0;
+    background: red;
+    border-radius: 4px;
+    width: 100px;
+    width: 90px;
+    color:#fff;
+    padding: 0.2rem;
+}
+.courses .course .course-info .title{
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+}
+.courses .course .course-info .description{
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+.courses .course .course-info .instructor{
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-bottom: 0.25rem;
+}
+.courses .course .course-info .rating{
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-bottom: 0.25rem;
+}
+/* Footer */
+#contact{
+    color: #fff;
+    padding: 1rem;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul{ 
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+    }
+#contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+#contact .contact-form ul li a:hover{
+    opacity: 0.6;
+    transition: 0.8s;
+}
