@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    box-sizing: border-box;
+}
+.kapsa{
+    margin:20px auto;
+    width: 900px;
+    border: 2px solid black;
+}
+.header{
+    padding: 30px;
+}
+.header h2{
+    background-color: coral;
+    width: 400px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 20px;
+}
+.ust_menu{
+    background-color: gainsboro;
+    height: 40px;
+}
+.ust_menu ul{
+    list-style-type: none;
+    
+}
+.ust_menu ul li a:hover{
+    color: crimson;
+}
+.ust_menu ul li{
+    float: left;
+}
+.ust_menu ul li a{
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    line-height: 40px;
+}
+.ara{
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    margin-right: 10px;
+}
+.ara input{
+    background: white;
+    width: 150px;
+    height: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px;
+}
+.ara button{
+    width: 60px;
+    background: green;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.icerik{
+    background-color: white;
+    height: 500px;
+}
+.sol_taraf{
+    width: 600px;
+    line-height: 30px;
+    text-align: justify;
+    float: left;
+    
+}
+.sol_taraf h2{
+    width: 600px;
+    border-bottom: 2px dashed black;
+    padding-left: 20px;
+    font-size: 25px;
+}
+.sol_taraf img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    
+}
+.sol_taraf p.clear{
+    clear: both;
+}
+.sag_taraf{
+    width: 270px;
+    float: left;
+    margin-left: 30px;
+}
+.sag_taraf h3{
+    height: 50px;
+    line-height: 50px;
+    background-color: darkgray;
+    text-align: center;
+}
+.sag_taraf ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sag_taraf ul li{
+    height: 40px;
+    background-color: wheat;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-left: 10px;
+}
